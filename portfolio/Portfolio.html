@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: #f0f2f5;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        
+        .cover-photo {
+            height: 300px;
+            background: url('https://media.istockphoto.com/id/865457032/vector/abstract-futuristic-cyberspace-with-binary-code-matrix-background-with-digits-well-organized.jpg?s=612x612&w=0&k=20&c=IQcdedY8fn_DMq6nwc5MaHUBe0H0d5DPyibHR8J2usk=') center center / cover;
+            position: relative;
+        }
+        
+        .profile-pic {
+            position: absolute;
+            bottom: -75px;
+            left: 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+        }
+        
+        .details {
+            margin-top: 80px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        .title {
+            color: #1877f2;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        
+        .bio {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .works {
+            margin-bottom: 25px;
+        }
+        
+        .works h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .work-item {
+            background: #f5f5f5;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .work-item a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .social {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .social a {
+            display: inline-flex;
+            width: 40px;
+            height: 40px;
+            background: #1877f2;
+            color: white;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        
+        .social a:hover {
+            background: #166fe5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cover-photo">
+            <img src="https://i.imgur.com/L5KNf8G.png" alt="Profile Picture" class="profile-pic">
+        </div>
+        
+        <div class="details">
+            <div class="name">James Dio Galbo</div>
+            <div class="title">Full Stack Developer</div>
+            <div class="bio">A computer science student from University of Bohol. Passionate about creating beautiful and functional web applications.</div>
+            
+            <div class="works">
+                <h3>Works</h3>
+                <div class="work-item"><a href="quotations.html"> Quotations</a></div>
+                <div class="work-item"><a href="article.html"> Article</a></div>
+                <div class="work-item"><a href="ourgroupsystem.html"> Our Group System</a></div>
+            </div>
+            
+            <div class="social">
+                <a href="https://www.facebook.com/james.dio.931348/" target="_blank" title="facebook">f</a>
+                <a href="https://github.com/james2567/portfolioocto-meme" target="_blank" title="GitHub">⚙</a>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
